@@ -30,4 +30,4 @@ def main():
         prediction = ""
     return render_template("index.html", output = prediction)
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(debug = flase,host='0.0.0.0')
